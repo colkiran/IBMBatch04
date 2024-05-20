@@ -1,0 +1,240 @@
+Python
+------
+python is an opensource technology?
+
+Source of python is free 
+
+python was found by Guido Van Russum - 
+
+Python
+------
+Desktop Application	-	TKinter (TK) 
+
+Web Application		-	REST API -> Flask, Django (MVC)
+
+Mobile Application	-	Kivy
+
+Testing			-	Unit Test, Pytest, Robot Framework
+
+Automation		-	paramiko
+
+Webscraping		-	Beautiful Soup, request
+
+Data Science		-
+
+Data Analytics		-	Pandas, Numpy, Matplotlib, Seaborn
+
+ML 			-	Machine Learning
+
+AI			- 	Artificial Intelligence
+
+Genrative AI
+
+Python
+------
+www.python.org , activestate, Raspberry Pi (embedded)
+
+Editor
+------
+VS code (community edition)
+
+eclipse 
+
+PyCharm (community edition)
+
+Sublime Text
+
+Notepad++
+
+Anaconda and Jupyter Notebook
+
+google colabs
+
+Python
+------
+1. Python code gets interpreted
+
+2. Python data types are dynamic
+
+C, C++
+------
+int i;
+i = 10;
+
+string j;
+j = "hello"
+
+Python
+------
+x = 100 - integer variable
+
+x = "hello" - string
+
+x = True - Boolean
+
+
+Python 3.X
+----------
+1. SDK - Libraries necessary to work on Python Project
+
+2. Shell - Interactive Environment
+
+3. IDLE - Integrated Development Environment (Editor)
+
+
+Two operators that are overloaded
+---------------------------------
++ - different jobs - addition and concatenation
+
+* - multiplication and print a string n times
+
+numbers
+  a. integers
+  b. float
+  c. long   - depricated
+  d. complex	
+
+
+239838902320934 = > coverts to exponential
+
+239023809412490233L - long data type
+                        
+Primitive Datatypes
+-------------------
+1. Number
+   a. integer
+   b. float
+   c. complex
+	
+2. String
+
+3. Boolean
+
+
+os module
+---------
+
+
+execute the python file in python shell
+
+use reload method from imp module
+
+from imp import reload
+
+
+Virtual Environment
+--------------------
+Virtual environment is a isolated space where you can work on your python projects.
+
+to create a virtual environment first we should have the virtualenv lib installed in our machine
+
+to check if the virtualenv module is present then we use a command 
+
+  virtualenv --version
+
+
+else we can install the virtualenv module
+
+pip install virtualenv
+
+Now we need to create the virtual environment
+
+virtualenv path + virtualenv_name
+
+Once created then we need to activate the virtual environment
+
+path\Scripts\activate
+
+(virtualenv_name) c:\users\jack>
+
+we can now install all necessary libraries in the virtual environment. To check the installed libraries then we use a command 
+
+pip list
+
+lists all the modules installed on the current Virtual Environment
+
+to deactivate the virtual environment
+
+(virtualenv_name) c:\users\jack> deactivate
+
+c:\users\jack>
+
+your prompt will look as shown above
+
+to delete the virtual environment
+
+rm -rf virtual_env_name
+
+The virtual environment folder will be deleted
+
+------------------------------------------------------------------
+
+Coding Rules
+-------------
+#!  - shebang - will give the path of python.exe file
+
+comments
+--------
+# - is the only way to create a single line comment
+
+ctrl + / - to comment a line
+
+doc strings
+-----------
+this is a place on top of the functions where we can write necessary information about the function like how many arguments the function takes and what are the data types of these functions
+
+this information will be listed when we run help on functions
+
+help(fun_name)
+
+these doc strings are enclosed in "" or '' if it is a single line
+else will be enclosed in """  """ or  '''  ''' for multiple lines
+
+these strings will not be assigned to any variables
+
+python interpreter will not touch the strings that are created
+ 
+Python does not use paranthesis ({})
+------------------------------------
+1. if conditions
+2. loops
+3. functions
+4. class
+
+instead it works on indentation (tab spaces)
+
+Primitive Datatypes
+-------------------
+1. Number
+   a. integer
+   b. float
+   c. complex
+	
+2. String
+
+3. Boolean
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
