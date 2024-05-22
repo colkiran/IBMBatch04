@@ -1,0 +1,76 @@
+list manipulation functions
+---------------------------
+
+'append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort'
+
+
+add new values
+--------------
+1. append
+2. extend
+3. insert
+
+
+del values
+----------
+1. pop
+2. remove
+3. clear
+
+# sort these months according to the calendar
+
+Dictionary
+-----------
+1. they also called as associative arrays
+
+index =   0    1    2    3    4
+array =  'a', 'b', 'c', 'd', 'e'
+
+{0: 'a', 1: 'b', 2: 'c', 3: 'd', 4: 'e'}
+
+keys 	- 0, 1, 2, 3, 4, 5
+values 	- 'a', 'b', 'c', 'd', 'e'
+
+2. keys are always unique, keys are user defined
+
+3. unordered collection
+1, 2, 3, 4, 5    =>  3, 1, 4, 2, 5
+
+4. they are mutable
+
+5. they are enclosed on  { }
+
+
+
+Dictionary Manipulation Functions
+---------------------------------
+'clear', 'copy', 'fromkeys', 'get', 'items', 'keys', 'pop', 'popitem', 'setdefault', 'update', 'values'
+
+
+
+Assignment
+----------
+
+months = ['dec', 'jun', 'aug', 'nov', 'oct', 'apr', 'mar', 'sep', 'jan', 'jul', 'may', 'feb']
+
+write a code to generate a identity matrix
+
+write a code to transpose a matrix
+
+
+Explain
+write a code to create a magic matrix
+
+
+
+
+
+
+
+
+
+
+
+
+
+
