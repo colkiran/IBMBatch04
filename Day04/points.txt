@@ -1,0 +1,52 @@
+https://www.youtube.com/watch?v=GYBr8n-_Rq4&t=78s
+
+
+Tuple
+-----
+tuples are immutable lists
+
+tuples are enclosed in ()
+
+Set
+---
+1. set is a unordered collection
+2. sets are always unique
+3. sets are not sub scriptable - cannot be indexed
+4. sets are mutable
+5. sets are enclosed in { }
+
+----------------------------------------------------------
+
+Functions
+---------
+a reusable piece of code 
+
+recursive calls 
+---------------
+1. factorial of a  number
+2. Fibonacci series
+
+
+scope of a variable
+-------------------
+1. global
+2. local
+3. nonlocal
+
+
+accessibility of a variable
+---------------------------
+1. print the value of the variable
+2. change the values of the variable
+
+
+
+
+
+
+
+
+
+
+
+
