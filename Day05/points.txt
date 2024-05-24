@@ -1,0 +1,55 @@
+Scope of a variable
+-------------------
+1. global
+2. local
+3. non local
+
+
+global
+------
+variables that are declared outside the function and accessed inside the function
+
+
+Welcome ----> Sachin
+Welcome ====> Sachin
+
+
+
+
+OOPS
+----
+what is oops and why do we need oops?
+
+Object Oriented Programming
+---------------------------
+
+def get_details(self):
+    print(f"{self.name}  {self.age}")
+
+
+ply1 = Player("Sachin", 30)
+ply1.get_details()	=>	ply1 -> self
+
+
+class variable
+--------------
+class variables are created inside the class and outside the methods
+
+class variables are static, their values will remain the same across the objects
+
+class variables are accessed using class name
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
