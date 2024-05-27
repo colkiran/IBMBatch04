@@ -1,0 +1,134 @@
+HOF functions
+-------------
+
+def callMe():
+    print("Apples from ooty......")
+
+def fun(fnc):
+    print("Hello.......")
+    fnc()
+    print("Hi.........")
+    print("-" * 60)
+
+    def defineMe():
+        print(f"Oranges from Kanpur")
+
+    return defineMe
+
+def funCallBack(fnc):
+    print("Mera Bharath Mahan......")
+    fnc()
+    print("India is great")
+
+funCallBack(fun(callMe))
+
+-------------------------------------------------------------------
+
+fun(callMe)
+
+
+def callMe():
+    print("Apples from ooty......")
+
+
+def fun(fnc):
+    print("Hello.......")
+    fnc()
+    print("Hi.........")
+    print("-" * 60)
+
+    def defineMe():
+        print(f"Oranges from Kanpur")
+
+    return defineMe
+------------------------------------------
+
+
+funCallback(fun(callme)
+
+funCallback(defineRef)
+
+
+def funCallBack(fnc):
+    print("Mera Bharath Mahan......")
+    fnc()
+    print("India is great")
+
+
+---------------------------------
+output
+-------
+Hello......
+Apples from ooty
+Hi.........
+---------------------
+
+Mera Bharath Mahan
+Oranges from Kanpur
+India is great
+
+
+---------------------------------------------------------------------------
+
+
+
+Assignment
+----------
+
+class Player:
+
+    def __init__(self, name, age):
+        print(f"Player Ctor.....")
+        self.name = name
+        self.age = age
+
+    def get_detials(self):
+        print(f"Name is {self.name}\nAge is {self.age}")
+
+
+    @classmethod
+    def CreatePlayer(cls, name, dob):
+	# convert the dob to age and call the constructor
+
+
+Player(name, DOB)
+
+
+Operator Overloading
+--------------------
+add = __add__	 double underscore - 	dunder add
+sub = __sub__	
+
+__add__, __sub__, __mul__ 	=> slang for these methods - magic methods
+
+
+@totalordering
+---------------
+1. overload == (__eq__) operator
+
+2. overload > (__gt__) operator
+
+then all comparison operators will work	
+
+
+Inheritance
+-----------
+1. multiple inheritance
+2. multilevel inheritance
+
+Abstract Class
+--------------
+
+
+Polymorphism
+
+
+
+
+
+
+
+
+
+
+
