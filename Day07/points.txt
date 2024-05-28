@@ -1,0 +1,107 @@
+Package and Modules
+-------------------
+Modules are same as Libraries, any python file can be used as a python module. python modules have the same extension as a python .py
+
+
+Package
+-------
+package is a folder / directory that is used to store modules.
+
+packages are also compared with a class
+
+in class we have constructor __init__ that gets executed first
+
+even in packages also if we have a __init__.py file it will first get executed
+
+
+import mymodule
+----------------
+
+1. convert the module name from
+
+mymodule.py => mymodule.cpython-311.pyc
+
+and store it in a folder __pycache__
+
+
+
+filename.pth
+
+import mymodule
+import mymodule as m
+
+import mypackage.mymodule as m
+
+from mymodule import greet
+from mypackage.mymodule import Player
+
+from mypackage import *
+
+How do we build a installable  package
+
+
+Regular Expressions
+-------------------
+what is the use of regular expressions
+
+* - series of characters
+? - single character
+
+
+dir *.txt = lists out all files with extension .txt
+
+dir ?a*.txt = lists all files with second character as 'a' and extension is .txt
+
+
+server.log
+
+server restarted by IBM-882384 at 10:20 AM due to wrong entry of time
+server restarted by IBM-467678 at 10:20 AM due to wrong entry of time
+server restarted by IBM-112377 at 10:20 AM due to wrong entry of time
+server restarted by IBM-378066 at 10:20 AM due to wrong entry of time
+server restarted by IBM-234889 at 10:20 AM due to wrong entry of time
+server restarted by IBM-233454 at 10:20 AM due to wrong entry of time
+
+
+Basic Regular Expressions
+-------------------------
+
+.		- single character	- represents alpha-numeric or 						  special character	
+
+^		- beginning of the string
+$		- End of the string
+
+
+*		- zero or more occurrences of a character
+?		- zero of one occurrence of a character
++		- one or more occurrence of a character
+
+{n}		- exactly n times
+{n,}		- min n times and max infinite times
+{n, m}		- min n times and max m times
+
+[]		- character class
+()		- grouping
+|		- Alternation
+\		- supress the meaning of regular expression
+
+
+License Number :- LCNO-KAR-08-2008-8372
+
+LCNO- remains the same no changes
+
+KAR - KAR, KER, TND, APN, TLG, MAH
+
+08 - RTO - 01 - 73 (no 00)
+
+2008 - year - 2000+
+
+8372 - license number - any 4 digit number no 0000
+
+st = 'LCNO-KAR
+
+res = re.search(r'LCNO-()', st)
+
+
+
+
