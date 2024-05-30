@@ -1,0 +1,60 @@
+Json
+----
+Rest Api
+--------
+1. share data in the form of Json. 
+
+2. json data also has key and value
+
+3. json data is very similar to dictionary
+
+Json = Java script object notation
+
+dump = normal json data
+dumps = data in string format
+
+
+
+Database
+--------
+MySQL - Sqlite3
+
+WAMP server
+-----------
+Window, Apache, MySQL, PHP
+
+
+Flask Rest API
+--------------
+two applications would share data in text format
+
+the data given by one application was not in the format expected by another application
+
+they moved to XML, and shared data using XSLT
+
+Now after the entry of light weight web application based on JavaScript
+
+REST API has become the main source of transaction of data the reason behind it is JSON datatype which is very similar to dictionary datatype
+
+Modules to be installed
+-----------------------
+1. flask
+2. flask_restful
+3. requests
+
+Methods
+-------
+1. get - get data from the server
+2. puts - updation (small)
+3. patch - updation (large)
+4. post - add new record
+5. delete - delete record
+
+
+
+
+
+
+
+
+
