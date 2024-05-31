@@ -1,0 +1,7 @@
+INFO:root:Product of 20 and 30 is 600
+DEBUG:root:Product of 20 and 30 is 600
+WARNING:root:Product of 20 and 30 is 600
+ERROR:root:Product of 20 and 30 is 600
+CRITICAL:root:Product of 20 and 30 is 600
+2024-05-31 16:32:27,356 : INFO : inverse fo 2 is 0.5 : O05Logging02.py : 19
+2024-05-31 16:32:57,118 : CRITICAL : division by zero : O05Logging02.py : 13
